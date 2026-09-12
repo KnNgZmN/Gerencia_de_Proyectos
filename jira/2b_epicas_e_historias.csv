@@ -1,0 +1,51 @@
+﻿Issue Id,Parent Id,Issue Type,Summary,Description,Priority,Story Points,Sprint,Labels
+1,,Epic,E1. Descubrimiento y caso de negocio,Entender el problema y validar la inversión,Medium,,,asistia
+2,,Epic,"E2. Datos: fuentes, calidad y gobierno",Construir una base documental confiable,Medium,,,asistia
+3,,Epic,E3. Modelo de IA: línea base y evaluación,Lograr respuestas correctas y medibles,Medium,,,asistia
+4,,Epic,E4. Plataforma e infraestructura,"Tener dónde construir, probar y operar",Medium,,,asistia
+5,,Epic,E5. Producto y experiencia de usuario,Experiencia usable y con el tono de la marca,Medium,,,asistia
+6,,Epic,E6. Integración y despliegue,Conectar con los sistemas reales,Medium,,,asistia
+7,,Epic,E7. IA responsable y cumplimiento,Cumplir la ley y evitar daños,Medium,,,asistia
+8,,Epic,E8. Pruebas y aseguramiento de calidad,Asegurar la calidad antes de exponer al cliente,Medium,,,asistia
+9,,Epic,E9. Gobernanza y gestión del proyecto,Dirigir y controlar el proyecto,Medium,,,asistia
+10,,Epic,"E10. Adopción, capacitación y soporte",Lograr que la organización lo use,Medium,,,asistia
+101,1,Historia,Entrevistas con el área de servicio al cliente,Como PM quiero entrevistar a los agentes para identificar las consultas más frecuentes y sus dolores.,High,3,Sprint 1,asistia e1
+102,1,Historia,Análisis del volumen y tipología de consultas,Como PO quiero clasificar las consultas históricas para saber cuáles se pueden automatizar.,High,5,Sprint 1,asistia e1
+103,1,Historia,Definición de métricas de éxito y línea base,Como patrocinador quiero métricas claras para saber si el proyecto generó valor.,Highest,3,Sprint 1,asistia e1
+104,1,Historia,Validación del caso de negocio con el patrocinador,Como PM quiero validar el caso de negocio para obtener la autorización formal del proyecto.,Highest,2,Sprint 1,asistia e1
+105,2,Historia,Inventario de fuentes de información,"Como equipo quiero inventariar FAQ, manuales y tickets para conocer el material disponible.",High,3,Sprint 1,asistia e2
+106,2,Historia,Extracción y limpieza del corpus documental,Como equipo quiero un corpus limpio y estructurado para que el asistente responda con información correcta.,Highest,8,Sprint 2,asistia e2
+107,2,Historia,Política de datos personales y anonimización,Como oficial de datos quiero que los datos de clientes se anonimicen para cumplir la Ley 1581.,Highest,5,Sprint 2,asistia e2
+108,2,Historia,Proceso de actualización periódica del corpus,Como PO quiero un proceso definido de actualización para que la información no quede obsoleta.,Medium,3,Sprint 3,asistia e2
+109,3,Historia,Selección del modelo y del enfoque técnico,Como equipo quiero evaluar alternativas de modelo y enfoque para elegir la más adecuada al caso.,Highest,5,Sprint 2,asistia e3
+110,3,Historia,Prototipo de línea base de respuestas,Como PO quiero un prototipo funcional para validar tempranamente la calidad de las respuestas.,Highest,8,Sprint 3,asistia e3
+111,3,Historia,Conjunto de evaluación con 200 preguntas reales,Como QA quiero un conjunto de evaluación para medir objetivamente el acierto del asistente.,High,5,Sprint 3,asistia e3
+112,3,Historia,Iteración de mejora sobre los resultados de evaluación,Como equipo quiero iterar sobre los errores detectados para superar el 85 % de acierto.,Highest,8,Sprint 4,asistia e3
+113,4,Historia,Definición de la arquitectura de la solución,Como equipo quiero una arquitectura definida para construir sobre una base técnica acordada.,High,5,Sprint 1,asistia e4
+114,4,Historia,"Ambientes de desarrollo, pruebas y producción",Como TI quiero ambientes separados para no afectar la operación durante el desarrollo.,High,5,Sprint 2,asistia e4
+115,4,Historia,"Repositorio, control de versiones e integración continua",Como equipo quiero versionamiento e integración continua para trabajar de forma ordenada.,Medium,3,Sprint 2,asistia e4
+116,4,Historia,"Monitoreo de uso, calidad y costos",Como PM quiero monitorear uso y costos para controlar el presupuesto operativo del asistente.,High,5,Sprint 4,asistia e4
+117,5,Historia,Mapa de experiencia del usuario,Como diseñador quiero mapear el recorrido del cliente para detectar los momentos críticos.,Medium,3,Sprint 2,asistia e5
+118,5,Historia,Prototipo de interfaz del asistente,Como cliente quiero una interfaz clara para resolver mi consulta sin fricción.,High,5,Sprint 3,asistia e5
+119,5,Historia,Diseño de respuestas y tono de la marca,Como jefe de servicio quiero que el asistente hable con el tono de la marca para cuidar la imagen.,Medium,3,Sprint 3,asistia e5
+120,5,Historia,Manejo de errores y derivación a agente humano,Como cliente quiero poder hablar con una persona cuando el asistente no resuelva mi caso.,Highest,5,Sprint 4,asistia e5
+121,6,Historia,API de integración con el canal web,Como TI quiero exponer el asistente por API para integrarlo al sitio web actual.,Highest,8,Sprint 4,asistia e6
+122,6,Historia,Integración con el sistema de tickets,Como agente quiero que las derivaciones lleguen al sistema de tickets para no perder trazabilidad.,High,8,Sprint 5,asistia e6
+123,6,Historia,Autenticación y control de acceso,Como TI quiero controlar los accesos para proteger la información de la empresa.,High,5,Sprint 5,asistia e6
+124,6,Historia,Despliegue a producción con plan de reversión,Como PM quiero un despliegue controlado con plan de reversión para reducir el riesgo operativo.,Highest,5,Sprint 6,asistia e6
+125,7,Historia,Evaluación de sesgos y respuestas inapropiadas,Como oficial de cumplimiento quiero evaluar sesgos para evitar daños reputacionales.,High,5,Sprint 3,asistia e7
+126,7,Historia,Filtros de contenido y límites del asistente,Como PO quiero límites claros de lo que el asistente puede responder para evitar respuestas indebidas.,Highest,5,Sprint 4,asistia e7
+127,7,Historia,Revisión legal de privacidad y tratamiento de datos,Como oficial de datos quiero revisar el tratamiento de datos para cumplir la normativa vigente.,Highest,3,Sprint 4,asistia e7
+128,7,Historia,Documento de IA responsable y aviso al usuario,Como cliente quiero saber que hablo con una IA para decidir si prefiero un agente humano.,High,3,Sprint 5,asistia e7
+129,8,Historia,Plan de pruebas y criterios de aceptación,Como QA quiero un plan de pruebas para verificar sistemáticamente cada entrega.,High,3,Sprint 3,asistia e8
+130,8,Historia,Pruebas funcionales del asistente,Como QA quiero ejecutar pruebas funcionales para detectar defectos antes del piloto.,High,5,Sprint 5,asistia e8
+131,8,Historia,Pruebas de carga y tiempo de respuesta,Como TI quiero validar el desempeño bajo carga para garantizar la disponibilidad del canal.,High,5,Sprint 5,asistia e8
+132,8,Historia,Prueba piloto con usuarios reales,Como patrocinador quiero un piloto controlado para decidir el paso a producción con evidencia.,Highest,8,Sprint 6,asistia e8
+133,9,Historia,Acta constitutiva y tablero de Jira configurado,Como PM quiero el proyecto formalizado y el tablero configurado para gestionar la ejecución.,Highest,3,Sprint 1,asistia e9
+134,9,Historia,Registro de riesgos y plan de escalamiento,Como PM quiero un registro de riesgos activo para anticipar problemas y saber cuándo escalar.,High,3,Sprint 1,asistia e9
+135,9,Historia,Informe de avance y métricas por sprint,Como patrocinador quiero informes periódicos para conocer el avance real del proyecto.,Medium,3,Sprint 3,asistia e9
+136,9,Historia,Cierre del proyecto y lecciones aprendidas,Como PM quiero cerrar formalmente el proyecto para documentar resultados y aprendizajes.,Medium,3,Sprint 6,asistia e9
+137,10,Historia,Material de capacitación para agentes,Como agente quiero material de apoyo para aprender a trabajar junto al asistente.,Medium,3,Sprint 5,asistia e10
+138,10,Historia,Sesiones de capacitación al equipo de servicio,Como jefe de servicio quiero capacitar al equipo para asegurar la adopción de la herramienta.,High,3,Sprint 6,asistia e10
+139,10,Historia,Manual de operación y soporte,Como TI quiero un manual de operación para sostener la solución después del proyecto.,Medium,3,Sprint 6,asistia e10
+140,10,Historia,Plan de adopción y comunicación interna,Como PM quiero comunicar el cambio para reducir la resistencia del equipo.,Medium,2,Sprint 6,asistia e10
