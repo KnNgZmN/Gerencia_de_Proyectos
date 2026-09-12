@@ -1,25 +1,25 @@
 ﻿Issue Type,Summary,Description,Priority,Labels
-Task,[RIESGO R1] El corpus documental está desactualizado o incompleto,"Probabilidad: 4/5 | Impacto: 4/5 | Severidad: 16 (CRÍTICA)
+Riesgo,[RIESGO R1] El corpus documental está desactualizado o incompleto,"Probabilidad: 4/5 | Impacto: 4/5 | Severidad: 16 (CRÍTICA)
 Respuesta: Mitigar: auditoría del corpus en el sprint 2 y proceso de actualización
 Responsable: PO",Highest,riesgo severidad-crítica
-Task,[RIESGO R2] El asistente entrega respuestas incorrectas al cliente,"Probabilidad: 4/5 | Impacto: 5/5 | Severidad: 20 (CRÍTICA)
+Riesgo,[RIESGO R2] El asistente entrega respuestas incorrectas al cliente,"Probabilidad: 4/5 | Impacto: 5/5 | Severidad: 20 (CRÍTICA)
 Respuesta: Mitigar: conjunto de evaluación, umbral de 85 % y filtros de contenido
 Responsable: Equipo Dev",Highest,riesgo severidad-crítica
-Task,[RIESGO R3] Incumplimiento en el tratamiento de datos personales,"Probabilidad: 2/5 | Impacto: 5/5 | Severidad: 10 (Alta)
+Riesgo,[RIESGO R3] Incumplimiento en el tratamiento de datos personales,"Probabilidad: 2/5 | Impacto: 5/5 | Severidad: 10 (Alta)
 Respuesta: Evitar: revisión legal obligatoria antes del piloto y anonimización
 Responsable: Oficial de datos",High,riesgo severidad-alta
-Task,[RIESGO R4] Resistencia de los agentes al uso del asistente,"Probabilidad: 3/5 | Impacto: 3/5 | Severidad: 9 (Media)
+Riesgo,[RIESGO R4] Resistencia de los agentes al uso del asistente,"Probabilidad: 3/5 | Impacto: 3/5 | Severidad: 9 (Media)
 Respuesta: Mitigar: involucrarlos desde el sprint 1 y plan de adopción
 Responsable: PM",Medium,riesgo severidad-media
-Task,[RIESGO R5] Costo de la API de IA por encima de lo presupuestado,"Probabilidad: 3/5 | Impacto: 4/5 | Severidad: 12 (Alta)
+Riesgo,[RIESGO R5] Costo de la API de IA por encima de lo presupuestado,"Probabilidad: 3/5 | Impacto: 4/5 | Severidad: 12 (Alta)
 Respuesta: Mitigar: monitoreo de consumo y alertas de umbral desde el sprint 4
 Responsable: PM",High,riesgo severidad-alta
-Task,[RIESGO R6] Retraso de TI en la entrega de ambientes,"Probabilidad: 3/5 | Impacto: 4/5 | Severidad: 12 (Alta)
+Riesgo,[RIESGO R6] Retraso de TI en la entrega de ambientes,"Probabilidad: 3/5 | Impacto: 4/5 | Severidad: 12 (Alta)
 Respuesta: Mitigar: acuerdo de servicio con TI y escalamiento a las 48 horas
 Responsable: SM",High,riesgo severidad-alta
-Task,[RIESGO R7] Rotación de un integrante clave del equipo,"Probabilidad: 2/5 | Impacto: 4/5 | Severidad: 8 (Media)
+Riesgo,[RIESGO R7] Rotación de un integrante clave del equipo,"Probabilidad: 2/5 | Impacto: 4/5 | Severidad: 8 (Media)
 Respuesta: Mitigar: documentación y programación en pareja en tareas críticas
 Responsable: SM",Medium,riesgo severidad-media
-Task,[RIESGO R8] El sistema de tickets no expone una API utilizable,"Probabilidad: 2/5 | Impacto: 5/5 | Severidad: 10 (Alta)
+Riesgo,[RIESGO R8] El sistema de tickets no expone una API utilizable,"Probabilidad: 2/5 | Impacto: 5/5 | Severidad: 10 (Alta)
 Respuesta: Transferir: validar con el proveedor en el sprint 2; plan alterno por correo
 Responsable: Equipo Dev",High,riesgo severidad-alta
