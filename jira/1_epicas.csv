@@ -1,0 +1,11 @@
+﻿Issue Type,Summary,Description,Labels
+Epic,E1. Descubrimiento y caso de negocio,Entender el problema y validar la inversión,asistia
+Epic,"E2. Datos: fuentes, calidad y gobierno",Construir una base documental confiable,asistia
+Epic,E3. Modelo de IA: línea base y evaluación,Lograr respuestas correctas y medibles,asistia
+Epic,E4. Plataforma e infraestructura,"Tener dónde construir, probar y operar",asistia
+Epic,E5. Producto y experiencia de usuario,Experiencia usable y con el tono de la marca,asistia
+Epic,E6. Integración y despliegue,Conectar con los sistemas reales,asistia
+Epic,E7. IA responsable y cumplimiento,Cumplir la ley y evitar daños,asistia
+Epic,E8. Pruebas y aseguramiento de calidad,Asegurar la calidad antes de exponer al cliente,asistia
+Epic,E9. Gobernanza y gestión del proyecto,Dirigir y controlar el proyecto,asistia
+Epic,"E10. Adopción, capacitación y soporte",Lograr que la organización lo use,asistia
